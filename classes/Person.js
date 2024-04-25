@@ -1,6 +1,17 @@
 class Person {
+    constructor(name, destination) {
+        this.name = name;
+        this.destination = destination;
+        this.bags = [];
+    }
 
+    addBags(bag) {
+        this.bags.push(bag);
+    }
 
+    getBags() {
+        return this.bags;
+    }
 }
 
 

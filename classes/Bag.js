@@ -11,8 +11,8 @@ class Bag {
         return this.owner;
     }
 
-    assignOwner(Person) {
-        this.owner = Person.name;
+    assignOwner(person) {
+        this.owner = person.name;
     }
 
 }
